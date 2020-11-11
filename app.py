@@ -4,6 +4,16 @@
 
 
 
+
+
+def odd_or_even(word):
+	return len(word) % 2 == 0
+
+oddOrEven=lambda w:len(w)%2<1
+
+def odd_or_even(str):
+	return not len(str) % 2
+
 def flip_bool(b):
 	return 1 - b
 
