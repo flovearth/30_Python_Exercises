@@ -1,10 +1,15 @@
 
 
 
+def has_spaces(txt):
+	return ' ' in txt 
 
 
-
-
+def stack_boxes(n):
+	if n > 0:
+		return n ** n
+	else:
+		return 1
 
 def odd_or_even(word):
 	return len(word) % 2 == 0
