@@ -1,5 +1,6 @@
 
-
+def ASCII(txt):
+    return ord(txt)
 
 def has_spaces(txt):
 	return ' ' in txt 
