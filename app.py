@@ -1,6 +1,7 @@
 
 
-
+def total_amount_adjectives(obj):
+	return len(obj)
 
 
 def area_shape(base, height, shape):
