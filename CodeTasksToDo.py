@@ -1,23 +1,30 @@
+def meme_sum(a, b):
+     x = max(len(a), len(b))
+	while x > 0:
+          for x in (a, b):
+               sum1 = a[x] + b[x]
+               
+
 #  Do the following tasks.0 check the code tasks to be done:
 
 #Dictionaries
 
-christopher = {}
-christopher['first'] = 'Christhoper'
-christopher['last'] = 'Harrison'
+# christopher = {}
+# christopher['first'] = 'Christhoper'
+# christopher['last'] = 'Harrison'
 
-susan = {}
-susan['first'] = 'Susan'
-susan['last'] = 'Ibach'
+# susan = {}
+# susan['first'] = 'Susan'
+# susan['last'] = 'Ibach'
 
-people = []
-people.append(christopher)
-people.append(susan)
-people.append({
-     'first': 'Bill' , 'last': 'Gates'
-})
+# people = []
+# people.append(christopher)
+# people.append(susan)
+# people.append({
+#      'first': 'Bill' , 'last': 'Gates'
+# })
 
-print(people)
+# print(people)
 
 
 

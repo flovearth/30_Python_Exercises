@@ -1,5 +1,10 @@
 
-
+def flip(y):
+	if y == 1:
+		return 0
+	else:
+		return 1
+		
 def total_amount_adjectives(obj):
 	return len(obj)
 
@@ -27,7 +32,7 @@ def stack_boxes(n):
 def odd_or_even(word):
 	return len(word) % 2 == 0
 
-oddOrEven=lambda w:len(w)%2<1
+oddOrEven = lambda w:len(w) % 2 < 1
 
 def odd_or_even(str):
 	return not len(str) % 2
@@ -40,12 +45,8 @@ def flip_bool(b):
 	return not b
 
 
-
 def is_last_character_n(word):
 	return word[-1] == 'n'
-
-
-
 
 
 def is_plural(word):
@@ -55,8 +56,6 @@ def is_plural(word):
 # Fix this broken code!
 def check_equals(lst1, lst2):
 	return lst1 == lst2
-
-
 
 
 # class Employee:
