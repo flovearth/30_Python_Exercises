@@ -1,3 +1,14 @@
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    
+def azra(a,b):
+    print a + b
+    print a - b
+    print a * b
+
+azra(a,b)
+
 def operate(num1,num2,operator):
 	return eval(str(num1)+operator+str(num2))
 
