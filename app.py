@@ -1,75 +1,83 @@
-if __name__ == '__main__':
-    a = int(raw_input())
-    b = int(raw_input())
+n=5
+i = 0
+while i < n:
+    print (i * i)
+    i += 1
+
+
+
+# if __name__ == '__main__':
+#     a = int(raw_input())
+#     b = int(raw_input())
     
-def azra(a,b):
-    print a + b
-    print a - b
-    print a * b
+# def azra(a,b):
+#     print a + b
+#     print a - b
+#     print a * b
 
-azra(a,b)
+# azra(a,b)
 
-def operate(num1,num2,operator):
-	return eval(str(num1)+operator+str(num2))
+# def operate(num1,num2,operator):
+# 	return eval(str(num1)+operator+str(num2))
 
 	
-def flip(y):
-	if y == 1:
-		return 0
-	else:
-		return 1
+# def flip(y):
+# 	if y == 1:
+# 		return 0
+# 	else:
+# 		return 1
 		
-def total_amount_adjectives(obj):
-	return len(obj)
+# def total_amount_adjectives(obj):
+# 	return len(obj)
 
 
-def area_shape(base, height, shape):
-	if shape == 'triangle':
-		return 0.5 * base * height
-	else:
-		return base * height
+# def area_shape(base, height, shape):
+# 	if shape == 'triangle':
+# 		return 0.5 * base * height
+# 	else:
+# 		return base * height
 
 
-def ASCII(txt):
-    return ord(txt)
+# def ASCII(txt):
+#     return ord(txt)
 
-def has_spaces(txt):
-	return ' ' in txt 
-
-
-def stack_boxes(n):
-	if n > 0:
-		return n ** n
-	else:
-		return 1
-
-def odd_or_even(word):
-	return len(word) % 2 == 0
-
-oddOrEven = lambda w:len(w) % 2 < 1
-
-def odd_or_even(str):
-	return not len(str) % 2
-
-def flip_bool(b):
-	return 1 - b
+# def has_spaces(txt):
+# 	return ' ' in txt 
 
 
-def flip_bool(b):
-	return not b
+# def stack_boxes(n):
+# 	if n > 0:
+# 		return n ** n
+# 	else:
+# 		return 1
+
+# def odd_or_even(word):
+# 	return len(word) % 2 == 0
+
+# oddOrEven = lambda w:len(w) % 2 < 1
+
+# def odd_or_even(str):
+# 	return not len(str) % 2
+
+# def flip_bool(b):
+# 	return 1 - b
 
 
-def is_last_character_n(word):
-	return word[-1] == 'n'
+# def flip_bool(b):
+# 	return not b
 
 
-def is_plural(word):
-	return word[-1] == 's'
+# def is_last_character_n(word):
+# 	return word[-1] == 'n'
 
 
-# Fix this broken code!
-def check_equals(lst1, lst2):
-	return lst1 == lst2
+# def is_plural(word):
+# 	return word[-1] == 's'
+
+
+# # Fix this broken code!
+# def check_equals(lst1, lst2):
+# 	return lst1 == lst2
 
 
 # class Employee:
