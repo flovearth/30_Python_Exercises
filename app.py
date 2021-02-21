@@ -1,15 +1,24 @@
-def is_leap(year):
-    if year % 400 == 0:
-        return True
-    if year % 100 == 0:
-        return False
-    if year % 4 == 0:
-        return True
-    else:
-        return False
+n = 5
+k = 1
+son = []
+while k <= n:
+    son.append(k)
+    k += 1 
+for i in son:
+    print(i, end="")
 
-year = int(input())
-print(is_leap(year))
+# def is_leap(year):
+#     if year % 400 == 0:
+#         return True
+#     if year % 100 == 0:
+#         return False
+#     if year % 4 == 0:
+#         return True
+#     else:
+#         return False
+
+# year = int(input())
+# print(is_leap(year))
 
 
 # n=5
